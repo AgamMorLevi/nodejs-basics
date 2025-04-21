@@ -1,14 +1,25 @@
 {
   "name": "nodejs-basics",
   "version": "1.0.0",
+  "type": "module",
   "main": "about-time.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Agam Mor-Levi",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ms": "^2.1.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgamMorLevi/nodejs-basics.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AgamMorLevi/nodejs-basics/issues"
+  },
+  "homepage": "https://github.com/AgamMorLevi/nodejs-basics#readme",
+  "description": ""
 }

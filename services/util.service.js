@@ -1,11 +1,13 @@
 import fs from 'fs'
+import fr from 'follow-redirects'
 
-// const { http, https } = fr
+const { http, https } = fr
 
 export const utilService = {
 	httpGet,
 	readJsonFile,
 	download,
+ 
 }
 
 function download(url, fileName) {
